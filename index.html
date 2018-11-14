@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Basic Bootstrap Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Stuff</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Stuff <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#">Old Map</a>
+                    </li>
+                    <li>
+                        <a href="#">Rusty Nail</a>
+                    </li>
+                    <li>
+                        <a href="#">Pencil</a>
+                    </li>
+                    <li>
+                        <a href="#">Pendant</a>
+                    </li>
+                </ul>
+                <li><a href="#">Things</a></li>
+                <li>
+                    <a href="#"> <span class="glyphicon glyphicon-search"></span> </a>
+                </li>
+                <li class="search">
+                    Search: <input type="text" placeholder="Search..">
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="First Name">First Name</label>
+                        <input type="text" class="form-control" id="First Name" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Last Name">Last Name</label>
+                        <input type="text" class="form-control" id="Last Name" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone Number">Phone Number</label>
+                        <input type="text" class="form-control" id="Phone Number" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="Email" placeholder="Email">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Row</th>
+                            <th>Name</th>
+                            <th>Species</th>
+                            <th>Skill</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Jajuta</td>
+                            <td>Wyrwythe</td>
+                            <td>Assassin</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Rhonen</td>
+                            <td>Tal'em</td>
+                            <td>Ryke-wielder</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Val</td>
+                            <td>Elf</td>
+                            <td>Carpenter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="row">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary">Blue</button>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-success">Green</button>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-danger">Red</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>

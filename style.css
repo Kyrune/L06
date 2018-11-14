@@ -1,0 +1,26 @@
+.search {
+    padding-top: 10px;
+    padding-right: 30px;
+    color: lightgray;
+}
+form {
+    width: 400px;
+    padding-top: 30px;
+}
+table {
+    margin-top: 100px;
+    background-color: rgb(207, 231, 247);
+}
+table.table-bordered {
+    border-color: black;
+}
+table.table-bordered > thead > tr > th {
+    border-color: black;
+}
+table.table-bordered > tbody > tr > td {
+    border-color: black;
+}
+body {
+    font-family: 'Niramit', sans-serif;
+    background-color: rgb(108, 169, 207);
+}
